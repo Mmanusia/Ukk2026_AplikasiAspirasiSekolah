@@ -9,6 +9,7 @@ use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
 use Laravel\Fortify\Contracts\CreatesNewUsers;
 
+// Logika untuk membuat user baru saat registrasi
 class CreateNewUser implements CreatesNewUsers
 {
     use PasswordValidationRules;

@@ -7,6 +7,7 @@ use Illuminate\View\View;
 use App\Models\Aspirasi;
 use App\Models\InputAspirasi;
 
+// Logika Untuk Aspirasi
 class AspirasiController extends Controller
 {
     // Logika untuk menampilkan semua aspirasi
